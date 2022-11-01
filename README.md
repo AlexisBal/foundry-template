@@ -1,5 +1,7 @@
 # Foundry Template
 
+## 
+
 ## Requirements
 Please install the following:
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -15,5 +17,18 @@ git clone https://github.com/AlexisBal/foundry-template
 cd foundry-template
 ```
 
-https://book.getfoundry.sh/
+## Commands 
+- Run solidity compiler : ```forge build```
+- Run tests : ```forge test```
+- Run an anvil node : ```anvil```
+- Run an anvil node and fork a network : ```anvil --fork-url <YOUR_RPC_URL>```
+- Run tests with the anvil node : ```forge test --rpc-url http://127.0.0.1:8545```
+- Run a test and debug it : ```forge test --debug <YOUR_TEST_NAME_FUNCTION>```
+
+## Resources
+- [Foundry Official Documentation](https://book.getfoundry.sh/getting-started/first-steps)
+- [Foundry template by Chainlink](https://github.com/smartcontractkit/foundry-starter-kit)
+
+
+
 
