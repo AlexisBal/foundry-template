@@ -25,6 +25,16 @@ cd foundry-template
 - Run tests with the anvil node : ```forge test --rpc-url http://127.0.0.1:8545```
 - Run a test and debug it : ```forge test --debug <YOUR_TEST_NAME_FUNCTION>```
 
+## Security 
+Run a Slither security test
+```
+pip3 install slither-analyzer
+pip3 install solc-select
+solc-select install <YOUR_SOLIDITY_VERSION>
+solc-select use <YOUR_SOLIDITY_VERSION>
+slither src/<YOUR_.SOL_FILE>
+```
+
 ## Resources
 - [Foundry Official Documentation](https://book.getfoundry.sh/getting-started/first-steps)
 - [Foundry template by Chainlink](https://github.com/smartcontractkit/foundry-starter-kit)
