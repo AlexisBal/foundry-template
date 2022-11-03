@@ -12,7 +12,7 @@ Please install the following:
   - Install the last version of **forge**, **cast** and **anvil** : ```foundryup```
 
 ## Quickstart
-```
+```shell
 git clone https://github.com/AlexisBal/foundry-template
 cd foundry-template
 ```
@@ -27,7 +27,7 @@ cd foundry-template
 
 ## Security 
 Run a Slither security test
-```
+```shell
 pip3 install slither-analyzer
 pip3 install solc-select
 solc-select install <YOUR_SOLIDITY_VERSION>
